@@ -10,7 +10,7 @@ then
 	cd $CATALINA_HOME/bin
 	./startup.sh
 fi
-b=`netstat -na | grep 8080 | awk '{print $7}' | wc -l`
+b=`netstat -na | grep 8080 | awk '{print $6}' | wc -l`
 if [ "$b" = 0 ];
 then
  echo " tomcat port is not listening"
