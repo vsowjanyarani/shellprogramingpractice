@@ -1,4 +1,5 @@
 echo " enter basic of sal"
+read b
 dp=`expr 50 \* $b / 100`
 echo $dp
 sum=`expr $b + $dp`
