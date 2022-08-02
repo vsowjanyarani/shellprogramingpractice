@@ -1,4 +1,4 @@
-
+#!bin/bash
 dp=`expr 50 \* $b / 100`
 echo $dp
 sum=`expr $b + $dp`
